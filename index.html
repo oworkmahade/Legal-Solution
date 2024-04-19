@@ -111,9 +111,9 @@
         <!-- navbar ends here -->
 
         <!-- banner starts here -->
-        <div class="banner mt-2">
+        <div class="banner mt-2 px-4 lg:px-0">
             <div
-                class="w-full h-full lg:h-[550px] bg-[linear-gradient(45deg,rgb(0,0,0,0.8),rgb(0,0,0,0.1)),url('./images/banner.png')] bg-no-repeat bg-cover bg-center rounded-xl py-12 lg:py-0">
+                class="w-full h-full lg:h-[550px] bg-[linear-gradient(45deg,rgb(0,0,0,0.8),rgb(0,0,0,0.1)),url('./images/banner.png')] bg-no-repeat bg-cover bg-center rounded-xl py-12 lg:py-0 lg:px-0">
 
                 <div class="hero-content text-center text-neutral-content">
                     <div class="">
@@ -155,7 +155,7 @@
                 </div>
             </div>
             <!-- legal practice card -->
-            <div class="grid grid-cols-1 lg:grid-cols-3">
+            <div class="grid grid-cols-1 lg:grid-cols-3 p-4 lg:p-0">
                 <!-- first card -->
                 <div class="card border-slate-100 border-b rounded-none">
                     <figure class="px-10 pt-10">
@@ -276,7 +276,7 @@
 
         <!-- What Our Client Say starts here -->
 
-        <div class="client-say lg:mt-44">
+        <div class="client-say lg:mt-44 mx-4 lg:mx-0">
             <div class="hero">
                 <div class="hero-content text-center">
                     <div class="">
@@ -517,7 +517,7 @@
         <!-- Frequently Asked Any Questions ends here -->
 
         <!-- Contact With Us starts here -->
-        <div class="contact mt-32 border-red-500 border">
+        <div class="contact mt-32 px-4 lg:px-0">
 
             <div class="hero">
                 <div class="hero-content text-center">
@@ -531,17 +531,17 @@
                 </div>
             </div>
 
-            <div class="flex flex-col lg:flex-row justify-between gap-16">
+            <div class="flex flex-col-reverse lg:flex-row justify-between gap-16 lg:mt-16">
                 <!-- contact us grid -->
                 <div class=" grid grid-cols-1 lg:grid-cols-2 flex-1">
                     <!-- first card -->
                     <div
-                        class="card01 flex flex-col items-center justify-center bg-[#F3F3F3] border-b border-r rounded-none p-2">
+                        class="card01 flex flex-col items-center justify-center bg-[#F3F3F3] border-b border-r rounded-none px-14 py-16">
                         <div>
                             <img src="./images/address.png" alt="address" class="" />
                         </div>
                         <div class="items-center text-center">
-                            <h2 class=" text-2xl  font-ebgaramond text-dark02  font-bold">Address</h2>
+                            <h2 class=" text-2xl  font-ebgaramond text-dark02  font-bold py-4">Address</h2>
                             <p class="font-poppins text-base text-dark03">A108 Adam Street,<br>
                                 New York, NY 535022.</p>
                         </div>
@@ -549,12 +549,12 @@
 
                     <!-- second card -->
                     <div
-                        class="card02 flex flex-col items-center justify-center bg-[#F3F3F3] border-b rounded-none p-2">
+                        class="card02 flex flex-col items-center justify-center bg-[#F3F3F3] border-b rounded-none px-14 py-16">
                         <div>
                             <img src="./images/call.png" alt="address" class="" />
                         </div>
                         <div class="items-center text-center">
-                            <h2 class=" text-2xl  font-ebgaramond text-dark02  font-bold">Call Us</h2>
+                            <h2 class=" text-2xl  font-ebgaramond text-dark02  font-bold py-4">Call Us</h2>
                             <p class="font-poppins text-base text-dark03">+88 01750 00 00 00 <br>
                                 +88 01750 00 00 00</p>
                         </div>
@@ -562,12 +562,12 @@
 
                     <!-- third card -->
                     <div
-                        class="card03 flex flex-col items-center justify-center bg-[#F3F3F3] border-b border-r rounded-none p-2">
+                        class="card03 flex flex-col items-center justify-center bg-[#F3F3F3] border-b border-r rounded-none px-14 py-16">
                         <div>
                             <img src="./images/email.png" alt="address" class="" />
                         </div>
                         <div class="items-center text-center">
-                            <h2 class=" text-2xl  font-ebgaramond text-dark02  font-bold">Email Us</h2>
+                            <h2 class=" text-2xl  font-ebgaramond text-dark02  font-bold py-4">Email Us</h2>
                             <p class="font-poppins text-base text-dark03">info@gmail.com <br>
                                 info@gmail.com
                         </div>
@@ -575,12 +575,12 @@
 
                     <!-- fourth card -->
                     <div
-                        class="card03 flex flex-col items-center justify-center bg-[#F3F3F3] border-b rounded-none p-2">
+                        class="card03 flex flex-col items-center justify-center bg-[#F3F3F3] border-b rounded-none px-14 py-16">
                         <div>
                             <img src="./images/time.png" alt="address" class="" />
                         </div>
                         <div class="items-center text-center">
-                            <h2 class=" text-2xl  font-ebgaramond text-dark02  font-bold">Working Hours</h2>
+                            <h2 class=" text-2xl  font-ebgaramond text-dark02  font-bold py-4">Working Hours</h2>
                             <p class="font-poppins text-base text-dark03">info@gmail.com <br>
                                 info@gmail.com
                         </div>
@@ -589,16 +589,17 @@
 
                 </div>
                 <!-- contact us form  -->
-                <div class=" flex flex-col gap-4 flex-1">
-                    <input type="text" placeholder="Your Name" class="input input-bordered w-full " />
+                <div class=" flex flex-col space-y-8 flex-1">
+                    <input type="text" placeholder="Your Name" class="input input-bordered w-full bg-[#f3f3f3]" />
 
-                    <input type="text" placeholder="Your Email" class="input input-bordered w-full " />
+                    <input type="text" placeholder="Your Email" class="input input-bordered w-full bg-[#f3f3f3] " />
 
-                    <input type="text" placeholder="Subject" class="input input-bordered w-full " />
+                    <input type="text" placeholder="Subject" class="input input-bordered w-full bg-[#f3f3f3] " />
 
-                    <textarea placeholder="Bio" class="textarea textarea-bordered w-full "></textarea>
+                    <textarea placeholder="Your Message"
+                        class="textarea textarea-bordered w-full h-60 bg-[#f3f3f3] "></textarea>
 
-                    <button class="btn btn-active bg-btncolor text-white w-full">Free Consultation</button>
+                    <button class="btn btn-active bg-btncolor text-white w-full bg-[#f3f3f3]">Free Consultation</button>
 
 
                 </div>
@@ -610,7 +611,54 @@
     </main>
 
     <!-- footer starts here -->
-    <footer class="mt-32 bg-black">
+    <footer class="mt-32">
+        <footer class="footer lg:p-28 bg-black text-base-content justify-between">
+            <aside class="">
+                <div class="mt-10 lg:mt-0">
+                    <img src="./images/logo.png" alt="">
+                </div>
+
+                <p class="font-poppins text-sm text-dark05 mt-8">There are many variations of <br> passages of
+                    Lorem Ipsum <br>
+                    available, but the majority
+                    have <br> suffered
+                    alteration in some <br> form, by injected humour.</p>
+            </aside>
+            <nav>
+                <h6 class="footer-title font-ebgaramond text-2xl text-white capitalize">Usefull Link</h6>
+                <a class="link link-hove mt-8 text-sm text-dark05 ">Homes</a>
+                <a class="link link-hover text-sm text-dark05">About Us</a>
+                <a class="link link-hover text-sm text-dark05">Cases</a>
+                <a class="link link-hover text-sm text-dark05">Blog</a>
+                <a class="link link-hover text-sm text-dark05">Contact Us</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title font-ebgaramond text-2xl text-white capitalize">Contact Now</h6>
+                <p class="font-poppins text-sm txt-dark05 mt-8 text-dark05 capitalize">555 4th 5t NW, Washington <br>
+                    DC 20530, United States</p>
+                <p class="font-poppins text-sm txt-dark05 text-dark05">+88 01750 000 000 <br>
+                    +88 01750 000 000</p>
+                <p class="font-poppins txt-dark05 text-sm text-dark05">info@gmail.com <br>
+                    info@gmail.com</p>
+
+            </nav>
+            <nav>
+                <form>
+                    <h6 class="footer-title font-ebgaramond text-2xl text-white capitalize">Subscribe</h6>
+                    <fieldset class="form-control font-poppins txt-dark05 text-sm">
+                        <p class="mt-8 text-sm text-dark05">Subscribe for our latest & <br> Articles. We Won’t Give You
+                            <br> Spam Mails
+                        </p>
+                        <div class="join mt-10">
+                            <input type="text" placeholder="Email Address"
+                                class="input input-bordered w-36 join-item text-sm " />
+                            <button class="btn bg-[#b68c5a] text-sm text-dark05
+                             join-item"><img src="./images/Frame-arro.png" alt="" class=""></button>
+                        </div>
+                    </fieldset>
+                </form>
+            </nav>
+        </footer>
 
     </footer>
     <!-- footer ends here -->
